@@ -22,7 +22,7 @@ elsif input == "1"
   end
 elsif input == "2"
   puts "Player 1 goes first as X"
-    game = Game.new(Players::Human.new("X"),Players::Computer.new("O"))
+    game = Game.new(Players::Human.new("X"),Players::Human.new("O"))
 end
   game.play until game.won?
 
