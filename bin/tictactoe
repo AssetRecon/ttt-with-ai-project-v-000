@@ -34,3 +34,5 @@ if won?
     end
   end
 end
+
+play_tictactoe
