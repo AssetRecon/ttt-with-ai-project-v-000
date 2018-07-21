@@ -26,7 +26,7 @@ elsif input == "2"
 end
   game.play until game.won?
 
-if won?
+if game.won?
   puts "Would you like to play again? Y or N?"
   play_again = gets.strip
   if play_again == "Y"
